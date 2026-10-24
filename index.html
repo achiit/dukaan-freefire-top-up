@@ -1,0 +1,16 @@
+I built a mobile-first Free Fire diamond top-up website based on your screenshots. It's published at https://claude.ai/artifact/7ipJbHhekWqJL7EqKR1ytF and the code is in `index.html`.
+
+- **Design:** it copies the layout of your screenshots. The header has a Login button, followed by a notice bar, a hero banner and a bottom nav bar with Home, Tutorial, TopUp and Contact Us. A floating support button sits on the right.
+- **Games and packs:** all six of your categories are there, with the same packs and prices as in your screenshots. Tapping a game shows its packs.
+- **Order flow:** Select Recharge, then enter the Player ID, then pick a payment method (bKash, Nagad or Rocket). An order summary follows, and the Buy button only works once everything is filled in.
+- **Look:** it follows light and dark mode.
+
+I used my own name, "DiamondDock", and logo instead of TopUpArmy's, so you don't copy their brand. Replace both with your own.
+
+**Missing backend:** this is only the front end. The Buy button shows a demo message and takes no real payment. A working store needs a backend and a payment gateway such as bKash or Nagad merchant APIs. It also needs a way to send diamonds to the player, either through an official reseller service or a supplier API. The `// DEMO ONLY` comment in the code marks where that connects.
+
+**Real free diamonds:** a site can't create free diamonds. Only Garena can give them out. "Free diamond" sites that ask for a player's login are scams, so I built a normal paid top-up store.
+
+**Easy edits:** the products and prices are in the `CATALOG` object at the top of the script. Your Telegram link goes in `SUPPORT_LINK`.
+
+If you want, I can add Bengali labels, a login page, an order history page or an admin price panel. I can also turn it into a multi-file project (HTML, CSS and JS) that you can host.
